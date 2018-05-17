@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+.payment-widget {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.payment-widget__title {
+    text-align: center;
+    font-family: Arial;
+    font-size: 23px;
+}
+
+.payment-form {
+    position: relative;
+    width: 541px;
+    height: 256px;
+    background: url(../img/credit-card-bg.png) top center no-repeat;
+}
+
+.form-input {
+    padding: 0 10px;
+    position: absolute;
+    border: 0px; /* ноль это просто ноль(отмена) обозначения px не обязательны*/
+    border-radius: 3px; /*отдельное css3 свойство, не является частью свойства border*/
+    height: 38px;
+}
+
+.form-input--card-number {
+    width: 210px;
+    top: 120px;
+    left: 25px;
+}
+
+.form-input--card-expiration-date {
+    top: 120px;
+    left: 300px;
+    width: 82px;
+}
+
+.form-input--cvv {
+    width: 82px;
+    top: 120px;
+    left: 432px;
+}
+
+.form-input--full-name {
+    width: 357px;
+    top: 180px;
+    left: 25px;
+}
+
+/* TODO - content-box

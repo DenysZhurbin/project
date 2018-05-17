@@ -6,7 +6,28 @@
     <title>Title</title>
 </head>
 <body>
-    <div class="conteiner">
+    <div class="page">
+        <div class="page-section">
+            <div class="payment-widget">
+                <h1 class="payment-widget__title">Enter your payment information to complete purchase</h1>
+                <div class="payment-widget__methods">
+                    <div class="payment-widget__credit-card">
+                        <form id="payment-form" class="payment-form">
+                            <div class="supported-credit-cards">
+
+                            </div>
+                            <input class="form-input form-input--card-number" tabindex="1" type="text" placeholder="Card number" maxlength="16">
+                            <input class="form-input form-input--card-expiration-date" tabindex="2" type="text" placeholder="MM/YY" maxlength="5">
+                            <input class="form-input form-input--cvv" tabindex="3" type="text" placeholder="CVV/CVC" maxlength="3">
+                            <input class="form-input form-input--full-name" tabindex="4" type="text" placeholder="Name on Card">
+                        </form>
+                    </div>
+                    <div class="payment-widget__custom-methods">
+                        <span class="paypal-button"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="content-header">
             <h1>Enter your payment information to complete purchase</h1>
         </div>
