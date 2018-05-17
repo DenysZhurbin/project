@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="49px" height="32px" viewBox="0 0 49 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-mastercard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-278.000000, -134.000000)" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(170.000000, 40.000000)">
+                <g id="Group-29" transform="translate(0.000000, 63.000000)">
+                    <g id="Group-3" transform="translate(30.000000, 30.000000)">
+                        <g id="logo-mastercard" transform="translate(78.000000, 1.000000)">
+                            <g id="shapes" transform="translate(-0.000000, -0.000000)">
+                                <rect id="middle" fill="#FF5F00" x="17.9389831" y="3.68160535" width="13.0805085" height="24.2301003"></rect>
+                                <path d="M18.7694915,15.7966555 C18.7694915,10.8735786 21.0118644,6.50702341 24.4584746,3.68160535 C21.9254237,1.62675585 18.7279661,0.385284281 15.2398305,0.385284281 C6.97627119,0.385284281 0.290677966,7.27759197 0.290677966,15.7966555 C0.290677966,24.3157191 6.97627119,31.2080268 15.2398305,31.2080268 C18.7279661,31.2080268 21.9254237,29.9665552 24.4584746,27.9117057 C21.0118644,25.129097 18.7694915,20.7197324 18.7694915,15.7966555 Z" id="red" fill="#EB001B"></path>
+                                <path d="M48.6677966,15.7966555 C48.6677966,24.3157191 41.9822034,31.2080268 33.7186441,31.2080268 C30.2305085,31.2080268 27.0330508,29.9665552 24.5,27.9117057 C27.9881356,25.0862876 30.1889831,20.7197324 30.1889831,15.7966555 C30.1889831,10.8735786 27.9466102,6.50702341 24.5,3.68160535 C27.0330508,1.62675585 30.2305085,0.385284281 33.7186441,0.385284281 C41.9822034,0.385284281 48.6677966,7.32040134 48.6677966,15.7966555 Z" id="orange" fill="#F79E1B"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
