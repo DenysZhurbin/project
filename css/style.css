@@ -52,4 +52,66 @@
     left: 25px;
 }
 
-/* TODO - content-box
+/* TODO - content-box*/
+
+.supported-credit-cards-list {
+    display: inline-table;
+    margin: 1px;
+}
+
+.supported-credit-cards-list__item {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+.icon {
+    display: inline-block; /* использовать в паре! inline-block добавляет 2px отступа снизу!!!*/
+    vertical-align: top;
+}
+
+.icon--visa {
+    background: url("../img/card-visa.svg");
+    width: 59px;
+    height: 20px;
+}
+
+.icon--master-card {
+    background: url("../img/card-master.svg");
+    width: 43px;
+    height: 32px;
+}
+
+.icon--discover {
+    background: url("../img/card-discovery.svg");
+    width: 49px;
+    height: 32px;
+}
+
+.icon--american-expsess {
+    background: url("../img/card-american-express.svg");
+    width: 40px;
+    height: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
