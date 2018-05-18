@@ -16,7 +16,7 @@
 .payment-form {
     position: relative;
     width: 541px;
-    height: 256px;
+    height: 462px;
     background: url(../img/credit-card-bg.png) top center no-repeat;
 }
 
@@ -35,12 +35,14 @@
 }
 
 .form-input--card-expiration-date {
+    text-align: center;
     top: 120px;
     left: 300px;
     width: 82px;
 }
 
 .form-input--cvv {
+    text-align: center;
     width: 82px;
     top: 120px;
     left: 432px;
@@ -56,13 +58,13 @@
 
 .supported-credit-cards-list {
     display: inline-table;
-    margin: 1px;
+    margin: 30px 22px;
 }
 
 .supported-credit-cards-list__item {
     display: table-cell;
     vertical-align: middle;
-    padding: 0 10px;
+    padding: 0 8px;
 }
 
 .icon {
@@ -78,13 +80,13 @@
 
 .icon--master-card {
     background: url("../img/card-master.svg");
-    width: 43px;
+    width: 49px;
     height: 32px;
 }
 
 .icon--discover {
     background: url("../img/card-discovery.svg");
-    width: 49px;
+    width: 43px;
     height: 32px;
 }
 
@@ -94,7 +96,15 @@
     height: 33px;
 }
 
+/* Вторая часть формы */
 
+.subscription-argument {
+    margin: 200px 0 0 0;
+}
+
+.form-input-subscription-argumet--zip-postal-code {
+    border: 1px solid gray;
+}
 
 
 

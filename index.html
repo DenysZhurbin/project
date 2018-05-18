@@ -13,24 +13,39 @@
                 <div class="payment-widget__methods">
                     <div class="payment-widget__credit-card">
                         <form id="payment-form" class="payment-form">
-                            <div class="supported-credit-cards-list">
-                                <div class="supported-credit-cards-list__item">
-                                    <span class="icon icon--visa"></span>
+                            <div class="supported-credit-cards">
+                                <div class="supported-credit-cards-list">
+                                    <div class="supported-credit-cards-list__item"><!--__item не актуален без родителя-->
+                                        <span class="icon icon--visa"></span>
+                                    </div>
+                                    <div class="supported-credit-cards-list__item">
+                                        <span class="icon icon--master-card"></span>
+                                    </div>
+                                    <div class="supported-credit-cards-list__item">
+                                        <span class="icon icon--discover"></span> <!--модификатор-->
+                                    </div>
+                                    <div class="supported-credit-cards-list__item">
+                                        <span class="icon icon--american-expsess"></span>
+                                    </div>
                                 </div>
-                                <div class="supported-credit-cards-list__item">
-                                    <span class="icon icon--master-card"></span>
-                                </div>
-                                <div class="supported-credit-cards-list__item">
-                                    <span class="icon icon--discover"></span> <!--модификатор-->
-                                </div>
-                                <div class="supported-credit-cards-list__item">
-                                    <span class="icon icon--american-expsess"></span>
+                                <input class="form-input form-input--card-number" tabindex="1" type="text" placeholder="Card number" maxlength="16">
+                                <input class="form-input form-input--card-expiration-date" tabindex="2" type="text" placeholder="MM/YY" maxlength="5">
+                                <input class="form-input form-input--cvv" tabindex="3" type="text" placeholder="CVV/CVC" maxlength="3">
+                                <input class="form-input form-input--full-name" tabindex="4" type="text" placeholder="Name on Card">
+                            </div>
+                            <div class="subscription-argument">
+                                <label>
+                                Zip/Postal Code <input class="form-input form-input-subscription-argumet--zip-postal-code" type="text" placeholder="01001">
+                                </label>
+                                <p>subscription PLUS (ANNUAL)</p>
+                                <div class="form-checkbox">
+                                    <input type="checkbox" id="coding" name="interest" value="coding" checked>
+                                    <label for="coding">I have read and agree the <a href="">Terms & Condition</a> </label>
+                                    <div>
+                                        <button type="submit">Start My PDFfilter Subscription</button>
+                                    </div>
                                 </div>
                             </div>
-                            <input class="form-input form-input--card-number" tabindex="1" type="text" placeholder="Card number" maxlength="16">
-                            <input class="form-input form-input--card-expiration-date" tabindex="2" type="text" placeholder="MM/YY" maxlength="5">
-                            <input class="form-input form-input--cvv" tabindex="3" type="text" placeholder="CVV/CVC" maxlength="3">
-                            <input class="form-input form-input--full-name" tabindex="4" type="text" placeholder="Name on Card">
                         </form>
                     </div>
                     <div class="payment-widget__custom-methods">
@@ -38,28 +53,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="content-header">
-            <h1>Enter your payment information to complete purchase</h1>
-        </div>
-        <div class="card-sender">
-            <div class="content-card-sender">
-                <div class="pic-card"></div>
-                <form id="form-card" >
-                    <input class="content-card-number-input" tabindex="1" type="text" placeholder="Card number" maxlength="16">
-                    <input class="content-card-date-input" tabindex="2" type="text" placeholder="MM/YY" maxlength="5">
-                    <input class="content-card-input" tabindex="3" type="text" placeholder="CVV/CVC" maxlength="3">
-                    <input class="content-card-cvv-input" tabindex="4" type="text" placeholder="Name on Card">
-                </form>
-            </div>
-            <div class="content-form-subscription">
-                <form id="form-subscription">
-
-                </form>
-            </div>
-        </div>
-        <div class="pay-options">
-
         </div>
     </div>
 </body>
