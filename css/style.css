@@ -61,6 +61,12 @@
     margin: 30px 22px;
 }
 
+.payment-widget__credit-card {
+    width: 625px;
+    border-right: solid 1px lightgrey;
+    height: 385px;
+}
+
 .supported-credit-cards-list__item {
     display: table-cell;
     vertical-align: middle;
@@ -98,14 +104,112 @@
 
 /* Вторая часть формы */
 
-.subscription-argument {
-    margin: 200px 0 0 0;
+.payment-agreement {
+    margin: 192px 0 0 25px;
+    font-family: Arial;
+    font-size: 14px;
 }
 
-.form-input-subscription-argumet--zip-postal-code {
+.payment-agreement p {
+    color: #3c3c3c;
+    font-weight: bold;
+    margin: 14px 0 25px 0;
+}
+
+.form-zip-postal-code {
+    font-weight: bold;
+    color: #3c3c3c;
+
+}
+
+.form-zip-postal-code span {
+    vertical-align: -webkit-baseline-middle;
+}
+
+.form-input--zip-postal-code {
     border: 1px solid gray;
+    padding: 0 0 0 10px;
+    height: 30px;
+    width: 160px;
+    margin: 0 0 0 17px;
 }
 
+.form-checkbox {
+    float: right;
+    padding: 15px 0px 0px 0px;
+}
+
+.form-checkbox a {
+    margin: 0 75px 0 0;
+}
+
+.form-checkbox span {
+    margin: 0 5px 0 0;
+}
+
+.form-checkbox button {
+    font-size: 14px;
+    font-weight: bold;
+    color: #3c3c3c;
+    border: none;
+    margin: 25px 0 0 0;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fe8000;
+    background: #ffa84c; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffa84c 0%, #ff7b0d 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffa84c 0%,#ff7b0d 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffa84c 0%,#ff7b0d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 );
+
+}
+
+.form-checkbox label {
+    position: relative;
+}
+
+.form-checkbox label:before {
+    margin: 0 15px 0 0;
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border: solid 1px gray;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.form-checkbox input {
+    display: none;
+}
+
+.form-checkbox input:checked + label:after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background: black;
+    vertical-align: middle;
+    position: absolute;
+    left: 1px;
+    top: 2px;
+    background: url("../img/check-gliphon.png") no-repeat;
+    background-size: 255%;
+    overflow:hidden;
+}
+
+
+
+.form-input--text {
+    padding: 15px 0 0 0;
+}
+
+.clear  {
+    clear: both;
+}
+
+/* Правая колонка */
 
 
 

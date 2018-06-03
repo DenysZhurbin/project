@@ -33,18 +33,24 @@
                                 <input class="form-input form-input--cvv" tabindex="3" type="text" placeholder="CVV/CVC" maxlength="3">
                                 <input class="form-input form-input--full-name" tabindex="4" type="text" placeholder="Name on Card">
                             </div>
-                            <div class="subscription-argument">
-                                <label>
-                                Zip/Postal Code <input class="form-input form-input-subscription-argumet--zip-postal-code" type="text" placeholder="01001">
-                                </label>
-                                <p>subscription PLUS (ANNUAL)</p>
+                            <div class="payment-agreement">
+                                <div class="form-zip-postal-code">
+                                    <label>
+                                        <span>Zip/Postal Code</span> <input class="form-input form-input--zip-postal-code" type="text" placeholder="01001">
+                                    </label>
+                                </div>
+                                <div class="form-input form-input--text">
+                                    <p>Subscription</p>
+                                </div>
                                 <div class="form-checkbox">
-                                    <input type="checkbox" id="coding" name="interest" value="coding" checked>
-                                    <label for="coding">I have read and agree the <a href="">Terms & Condition</a> </label>
+                                    <p>PLUS (ANNUAL)</p>
+                                    <input type="checkbox" id="checkbox" name="interest" value="coding" checked>
+                                    <label for="checkbox"><span>I have read and agree the</span><a href="">Terms & Conditions</a></label>
                                     <div>
-                                        <button type="submit">Start My PDFfilter Subscription</button>
+                                        <button type="submit">Start My PDFfilter Subscription!</button>
                                     </div>
                                 </div>
+                                <div class="clear"></div>
                             </div>
                         </form>
                     </div>
