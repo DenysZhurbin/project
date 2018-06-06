@@ -2,8 +2,12 @@
     box-sizing: border-box;
 }
 
+h1 {
+    margin: -10px 10px 33px 0;
+}
+
 .payment-widget {
-    width: 600px;
+    max-width: 950px;
     margin: 0 auto;
 }
 
@@ -62,9 +66,10 @@
 }
 
 .payment-widget__credit-card {
+    float: left;
     width: 625px;
     border-right: solid 1px lightgrey;
-    height: 385px;
+    height: 390px;
 }
 
 .supported-credit-cards-list__item {
@@ -127,7 +132,7 @@
 }
 
 .form-input--zip-postal-code {
-    border: 1px solid gray;
+    border: 1px solid lightgrey;
     padding: 0 0 0 10px;
     height: 30px;
     width: 160px;
@@ -175,7 +180,7 @@
     width: 15px;
     height: 15px;
     display: inline-block;
-    border: solid 1px gray;
+    border: solid 1px lightgrey;
     border-radius: 3px;
     vertical-align: middle;
 }
@@ -211,13 +216,74 @@
 
 /* Правая колонка */
 
+.payment-widget__custom-methods {
+    float: left;
+    width: 325px;
+    /*background: lightgrey;*/
 
+}
 
+.payment-widget__custom-methods span {
+    display: inline-block;
+    margin: 0px 0 15px 95px;
+    border: solid 1px lightgrey;
+    width: 220px;
+    height: 50px;
+    border-radius: 3px;
 
+}
 
+.icon-apple-pay {
+    background: url(../img/icon-apple-pay.svg) no-repeat 52%, black;
+    background-size: 59px;
+}
 
+.icon-google-pay {
+    background: url(../img/icon-google-pay.svg) no-repeat 50%;
+    background-size: 56px;
+}
 
+.icon-pay-pal {
+    background: url(../img/icon-pay-pal.svg) no-repeat 59% 70%, #26a8f5;
+    background-size: 88px;
+}
 
+.paypal-button-wrap {
+    width: 220px;
+    height: 156px;
+    border: solid 1px lightgrey;
+    margin: 10px 0 0 95px;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+}
+
+.paypal-button-wrap span {
+    margin: 27px 0 0px 50px;
+    border: none 1px lightgrey;
+    width: 115px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.paypal-button-wrap p {
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    color: #3c3c3c;
+    margin: 23px 0px 0px 30px;
+}
+
+.hover-button:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 200ms;
+}
+
+.hover-button:active {
+    box-shadow: 0 0 20px rgba(0,0.5,0,0.5);
+    transition: 200ms;
+}
+
+/*done*/
 
 
 
