@@ -230,7 +230,6 @@ h1 {
     width: 220px;
     height: 50px;
     border-radius: 3px;
-
 }
 
 .icon-apple-pay {
@@ -273,19 +272,107 @@ h1 {
     margin: 23px 0px 0px 30px;
 }
 
-.hover-button:hover {
+.effect-for-buttons:hover {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     transition: 200ms;
 }
 
-.hover-button:active {
+.effect-for-buttons:active {
     box-shadow: 0 0 20px rgba(0,0.5,0,0.5);
     transition: 200ms;
 }
 
-/*done*/
+/*media*/
 
+@media screen and (max-width: 960px) {
+    .payment-widget__methods {
+        margin: 0 auto;
+        height: 660px;
+        width: 540px;
+    }
+    .payment-widget__credit-card {
+        width: auto;
+        border-right: none;
+        height: 460px;
+    }
 
+    .payment-widget__custom-methods {
+        float: left;
+        margin: 20px 10px 10px 0px;
+        width: 625px;
+    }
+
+    .paymant-widget-button-wrap {
+        float: right;
+        margin: 25px 100px 10px 10px;
+        width: 221px;
+        height: 131px;
+    }
+
+    .paymant-widget-button-wrap span {
+        margin: 0px 0 15px 0px;
+    }
+
+    .paypal-button-wrap {
+        margin: 10px 10px 10px 35px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    /*.payment-widget__methods {
+        margin: 0 auto;
+        width: 540px;
+        height: 660px;
+    }*/
+
+    .payment-widget__custom-methods {
+        display: none;
+    }
+
+    .payment-widget__methods {
+        width: auto;
+    }
+
+    .payment-form {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        border-radius: 5px;
+        background: #1e5799; /* Old browsers */
+        background: -moz-linear-gradient(-45deg, #1e5799 0%, #2989d8 61%, #7db9e8 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, #1e5799 0%,#2989d8 61%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, #1e5799 0%,#2989d8 61%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+    }
+
+    .form-input {
+        width: 90%;
+        margin: 20px 20px 0px 20px;
+        position: inherit;
+        text-align: center;
+    }
+
+    .payment-form {
+        width: 80%;
+        height: auto;
+    }
+
+    .payment-agreement {
+        margin: 25px 25px 0 25px;
+    }
+
+    .payment-agreement p {
+        margin: 0px 255px 25px 0;
+    }
+
+    .form-checkbox {
+        float: left;
+        width: 375px;
+        padding: 15px 0px 15px 0px;
+    }
+
+}
 
 
 
