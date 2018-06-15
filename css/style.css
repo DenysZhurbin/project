@@ -20,8 +20,6 @@ h1 {
 .payment-form {
     position: relative;
     width: 541px;
-    height: 462px;
-    background: url(../img/credit-card-bg.png) top center no-repeat;
 }
 
 .form-input {
@@ -109,19 +107,29 @@ h1 {
 
 /* Вторая часть формы */
 
-.payment-agreement {
-    margin: 192px 0 0 25px;
+.payment-form__section {
     font-family: Arial;
     font-size: 14px;
+    height: 265px;
+    margin-bottom: 20px;
 }
 
-.payment-agreement p {
+.payment-form__section p {
     color: #3c3c3c;
     font-weight: bold;
     margin: 14px 0 25px 0;
 }
 
+.form-control {
+
+}
+
+.credit-card-style {
+    background: url(../img/credit-card-bg.png) top center no-repeat;
+}
+
 .form-zip-postal-code {
+    padding: 0 0 0 30px;
     font-weight: bold;
     color: #3c3c3c;
 
@@ -207,7 +215,7 @@ h1 {
 
 
 .form-input--text {
-    padding: 15px 0 0 0;
+    padding: 15px 0 0 30px;
 }
 
 .clear  {
@@ -218,7 +226,7 @@ h1 {
 
 .payment-widget__custom-methods {
     float: left;
-    width: 325px;
+    width: 300px;
     /*background: lightgrey;*/
 
 }
@@ -248,8 +256,8 @@ h1 {
 }
 
 .paypal-button-wrap {
+    padding-bottom: 35px;
     width: 220px;
-    height: 156px;
     border: solid 1px lightgrey;
     margin: 10px 0 0 95px;
     border-radius: 3px;
@@ -269,7 +277,7 @@ h1 {
     font-size: 17px;
     font-weight: bold;
     color: #3c3c3c;
-    margin: 23px 0px 0px 30px;
+    margin: 23px 30px 0px 30px;
 }
 
 .effect-for-buttons:hover {
@@ -320,24 +328,24 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-    /*.payment-widget__methods {
-        margin: 0 auto;
-        width: 540px;
-        height: 660px;
-    }*/
 
     .payment-widget__custom-methods {
         display: none;
+    }
+
+    .supported-credit-cards {
+        text-align: center;
     }
 
     .payment-widget__methods {
         width: auto;
     }
 
-    .payment-form {
+    .credit-card-style {
+        height: auto;
         max-width: 90%;
         margin: 0 auto;
-        padding: 0;
+        padding: 0 25px 40px;
         border-radius: 5px;
         background: #1e5799; /* Old browsers */
         background: -moz-linear-gradient(-45deg, #1e5799 0%, #2989d8 61%, #7db9e8 100%); /* FF3.6-15 */
@@ -354,24 +362,37 @@ h1 {
     }
 
     .payment-form {
-        width: 80%;
+        width: 100%;
         height: auto;
     }
 
-    .payment-agreement {
-        margin: 25px 25px 0 25px;
+    .payment-form__section {
+        text-align: center;
     }
 
-    .payment-agreement p {
-        margin: 0px 255px 25px 0;
+    .form-zip-postal-code {
+        max-width: 65%;
+        text-align: center;
+        display: inline-block;
+        padding: 0;
+    }
+
+    .payment-form__section p {
+        margin: 0px 5px 25px 0;
     }
 
     .form-checkbox {
-        float: left;
-        width: 375px;
         padding: 15px 0px 15px 0px;
+        text-align: center;
+        float: none;
     }
 
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 

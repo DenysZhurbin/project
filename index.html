@@ -13,27 +13,31 @@
                 <div class="payment-widget__methods">
                     <div class="payment-widget__credit-card">
                         <form id="payment-form" class="payment-form">
-                            <div class="supported-credit-cards">
-                                <div class="supported-credit-cards-list">
-                                    <div class="supported-credit-cards-list__item"><!--__item не актуален без родителя-->
-                                        <span class="icon icon--visa"></span>
-                                    </div>
-                                    <div class="supported-credit-cards-list__item">
-                                        <span class="icon icon--master-card"></span>
-                                    </div>
-                                    <div class="supported-credit-cards-list__item">
-                                        <span class="icon icon--discover"></span> <!--модификатор-->
-                                    </div>
-                                    <div class="supported-credit-cards-list__item">
-                                        <span class="icon icon--american-expsess"></span>
+                            <div class="payment-form__section credit-card-style">
+                                <div class="supported-credit-cards">
+                                    <div class="supported-credit-cards-list">
+                                        <div class="supported-credit-cards-list__item"><!--__item не актуален без родителя-->
+                                            <span class="icon icon--visa"></span>
+                                        </div>
+                                        <div class="supported-credit-cards-list__item">
+                                            <span class="icon icon--master-card"></span>
+                                        </div>
+                                        <div class="supported-credit-cards-list__item">
+                                            <span class="icon icon--discover"></span> <!--модификатор-->
+                                        </div>
+                                        <div class="supported-credit-cards-list__item">
+                                            <span class="icon icon--american-expsess"></span>
+                                        </div>
                                     </div>
                                 </div>
-                                <input class="form-input form-input--card-number" tabindex="1" type="text" placeholder="Card number" maxlength="16">
-                                <input class="form-input form-input--card-expiration-date" tabindex="2" type="text" placeholder="MM/YY" maxlength="5">
-                                <input class="form-input form-input--cvv" tabindex="3" type="text" placeholder="CVV/CVC" maxlength="3">
-                                <input class="form-input form-input--full-name" tabindex="4" type="text" placeholder="Name on Card">
+                                <div class="input form-control">
+                                    <input class="form-input form-input--card-number" tabindex="1" type="text" placeholder="Card number" maxlength="16">
+                                    <input class="form-input form-input--card-expiration-date" tabindex="2" type="text" placeholder="MM/YY" maxlength="5">
+                                    <input class="form-input form-input--cvv" tabindex="3" type="text" placeholder="CVV/CVC" maxlength="3">
+                                    <input class="form-input form-input--full-name" tabindex="4" type="text" placeholder="Name on Card">
+                                </div>
                             </div>
-                            <div class="payment-agreement">
+                            <div class="payment-form__section">
                                 <div class="form-zip-postal-code">
                                     <label>
                                         <span>Zip/Postal Code</span> <input class="form-input form-input--zip-postal-code" type="text" placeholder="01001">
