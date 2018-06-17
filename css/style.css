@@ -67,7 +67,6 @@ h1 {
     float: left;
     width: 625px;
     border-right: solid 1px lightgrey;
-    height: 390px;
 }
 
 .supported-credit-cards-list__item {
@@ -110,7 +109,6 @@ h1 {
 .payment-form__section {
     font-family: Arial;
     font-size: 14px;
-    height: 265px;
     margin-bottom: 20px;
 }
 
@@ -126,6 +124,7 @@ h1 {
 
 .credit-card-style {
     background: url(../img/credit-card-bg.png) top center no-repeat;
+    height: 265px;
 }
 
 .form-zip-postal-code {
@@ -314,7 +313,6 @@ h1 {
         float: right;
         margin: 25px 100px 10px 10px;
         width: 221px;
-        height: 131px;
     }
 
     .paymant-widget-button-wrap span {
